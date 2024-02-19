@@ -1,0 +1,48 @@
+@import url(http://www.fontsquirrel.com/fonts/montserrat);
+
+* { 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+body { 
+  background: rgba(59, 4, 187, 0.39) url(./bg1.jpg) no-repeat;
+  background-size: "100% 100%";
+  background-blend-mode: darken;
+  background-position: 50% 70%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+  width: 40vw;
+  min-width: 290px;
+  margin: 5vh auto;
+  background-color: rgb(49, 25, 71);
+  border-radius: 3%;
+}
+
+.fieldset, .btn { background-color:  rgba(88, 40, 133, 0.74);}
+
+.input { 
+  background-color:  inherit;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+::-moz-placeholder {
+  color: white;
+}
+:-ms-input-placeholder {
+  color: white;
+}
+::-ms-input-placeholder {
+  color: white;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+input[type='checkbox'] { cursor: pointer;}
